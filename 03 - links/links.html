@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>LINKS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Links</h1>
+    <h2>Conhecendo a tag âncora</h2>
+    <pre><code><p>
+      Hyperlinks - Elemento Âncora: | a |
+
+        + Anatômia
+
+        + Atributos:
+          -globais
+          -href
+            - para onde iremos, quando clicarmos no link?
+              - url completa
+              - fragmento
+              - email
+              - telefone
+              - e outros.
+          - download
+          - target
+              - _self (padrão)
+              - _blank
+    </p></code></pre>
+    <h3>Exemplo:</h3>
+    <a href="">Conteúdo</a>
+    <br /><br /><br />
+    <h2>Utilizando a tag âncora</h2>
+    <h3>Exemplo:</h3>
+    <ul>
+      <li><a href="#about">Sobre mim</a></li>
+      <li><a href="#history">História</a></li>
+      <li><a href="#works">Trabalho</a></li>
+    </ul>
+    <h3 id="about" style="text-align: left">Sobre mim</h3>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi hic vero
+    cumque vel corrupti sequi tenetur libero obcaecati itaque sunt maiores quae
+    enim molestiae ut, harum vitae cupiditate deleniti fugit.
+    <h3 id="history" style="text-align: left">História</h3>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo minus natus cum
+    veniam recusandae quis iure magni ut, molestias saepe harum numquam maxime
+    blanditiis. Nisi neque at corporis incidunt? Unde.
+    <h3 id="works" style="text-align: left">Trabalho</h3>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, doloremque
+    error suscipit expedita ex exercitationem sapiente praesentium neque non
+    similique, autem quae fuga quisquam rem officia. Officiis ratione rerum
+    consequuntur?
+    <br /><br /><br />
+    <h2>Conteúdos dentro do elemento a</h2>
+    <pre><code><p>
+      Conteúdo dos hyperlinks
+
+      - qualquer conteúdo
+    </p></code></pre>
+    <br /><br /><br />
+    <h2>Caminhos e URLS</h2>
+    <pre><code><p>
+      URLS e Caminhos dos arquivos
+
+      - Uniform Resourse Locator:
+          - www.google.com
+          - Sequêcia de texto que define onde algo está localizado na Web.
+
+      - URL usam caminhos para encontrar arquivos.
+
+      - Caminhos dos arquivos:
+          - Onde, no explorador de arquivos, um recurso está localizado
+    </p></code></pre>
+    <h3>Exemplo:</h3>
+    <a href="style.css">Abrir arquivo CSS</a>
+    <br /><br /><br />
+    <h2>Caminhos absolutos vs relativos</h2>
+    <pre><code><p>
+      URLs absolutos versus relativos:
+
+      - Absolutos:
+          - inclui protocolo e nome de domínio
+              - www.rocketseat.com.br/projeto/index.html
+          - sempre apontará para o mesmo local, pois é absoluto
+
+      - Relativos:
+          - relativo á página aberta no momento
+          - apontará para lugares diferentes
+    </p></code></pre>
+    <h3>Exemplo:</h3>
+    <a href="google.com">relativo: ir para o google</a>
+    <br /><br />
+    <a href="https://www.google.com">absoluto: ir para o google</a>
+    <br /><br /><br />
+  </body>
+</html>

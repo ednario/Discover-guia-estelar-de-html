@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tables</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Tabelas</h1>
+    <br />
+    <h2>Tabelas Básica</h2>
+    <h3>Exemplo:</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ednario</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <td>Vitoria</td>
+          <td>19</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total:</td>
+          <td>2 Pessoas</td>
+        </tr>
+      </tfoot>
+    </table>
+    <h2>Tabela Complexa</h2>
+    <pre><code><p>
+      2 Lojas
+          Quantos produtos foram produzidos, quantos
+          vendidos e agrupado pro nome dos produtos
+    </p></code></pre>
+    <br /><br /><br />
+    <table>
+      <caption>
+        Produzidos x Vendidos por Loja
+      </caption>
+      <col />
+      <col span="2" style="background-color: red" />
+      <col span="2" style="background-color: blue" />
+      <colgroup></colgroup>
+
+      <thead>
+        <tr>
+          <th rowspan="2"></th>
+          <th colspan="2" scope="colgroup">Ednario</th>
+          <th colspan="2" scope="colgroup">Marcia</th>
+        </tr>
+        <tr>
+          <th scope="col">Produzidos</th>
+          <th scope="col">Vendidos</th>
+          <th scope="col">Produzidos</th>
+          <th scope="col">Vendidos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Bancos</th>
+          <td>20</td>
+          <td>15</td>
+          <td>15</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <th scope="row">Baldes</th>
+          <td>10</td>
+          <td>10</td>
+          <td>30</td>
+          <td>25</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
